@@ -1,0 +1,10 @@
+body {
+    font-family: 'roboto', sans-serif;
+    background-color: rgb(10,132, 169);
+    background-image: url("../index.Html/Aboutpic.jpg");
+}
+
+h1{
+    color: rgb(75, 181, 181);
+}
+

@@ -3,33 +3,47 @@
  <head>
     <meta charset="UTF-8" />
     <title>Sm.edd</title>
+    <link rel="stylescheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="Bootstrap" href="bootstrap-5.2.3/bootstrap-5.2.3/scss/_navbar.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <meta name="description" content="This is My portfolio" />
 </head>
 <body>
     <header>
-        <nav>
-        <a>home</a>
-         <a>work</a>
-          <a>about</a>
-          <a>resume</a>
-           <a>contact</a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false">
+                    <span class="navbar-toggler-icon"> </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#">Resume</a>
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </div>
+                </div>
+            </div>
      </nav>
     </header>
     
-    <section>
+    <section class="color">
         <h1>ABOUT:</h1>
         <img src="./imgs/Aboutpic.jpg" alt="My photo">
         <p>I am Samir Eddebchi.I am a Web developer i have experience with Front-end developement and Python.</p> 
     </section>
-    <section>
+    <section class="color">
         <h1>WORK:</h1>
         <p>I worked on some projects such as a Web scraping project.</p>
     </section>
-    <section>
+    <section class="color">
         <h1>RESUME:</h1>
         <p>Web developement student at GOMYCODE.</p>
     </section>
-    <section>
+    <section class="color">
         <h1>Contact Us:</h1>
         <form>
             <label>Name:</label><br>
